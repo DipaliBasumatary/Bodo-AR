@@ -655,6 +655,8 @@
     <Compile Include="Packages\com.unity.purchasing\Editor\managed\Core\MigrationCleanupTooling.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Fonts\Montserrat\OFL.txt" />
+    <None Include="Assets\Fonts\Tillana\OFL.txt" />
     <None Include="Assets\StreamingAssets\Vuforia\Vowels.xml" />
     <None Include="Assets\Vuforia\Databases\Emulator\VuforiaEmulator.xml" />
     <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />

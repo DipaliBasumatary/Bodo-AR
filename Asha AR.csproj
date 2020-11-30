@@ -601,6 +601,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="VuforiaScripts.csproj">
+      <Project>{CC179C3A-F110-1C81-4789-6A3E1CBBEDBC}</Project>
+      <Name>VuforiaScripts</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.csproj">
       <Project>{D8B9AA28-EA8D-8295-F9E6-B87D042DE8DA}</Project>
       <Name>UnityEngine.Purchasing</Name>
@@ -617,6 +621,10 @@
       <Project>{6877705C-FBD9-0C4F-5AFB-6FB431E5D39D}</Project>
       <Name>Unity.PackageManagerUI.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="VuforiaEditorScripts.csproj">
+      <Project>{CDE0E850-A104-61B8-8B4D-585E45985D86}</Project>
+      <Name>VuforiaEditorScripts</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.CollabProxy.Editor.csproj">
       <Project>{C12CEEC6-100C-58A2-DE36-314E4DE5E40B}</Project>
       <Name>Unity.CollabProxy.Editor</Name>
@@ -629,20 +637,14 @@
       <Project>{D6E266C6-3D1F-28C8-9FEB-2A01E44DBF77}</Project>
       <Name>Unity.Analytics.DataPrivacy</Name>
     </ProjectReference>
-    <ProjectReference Include="VuforiaScripts.csproj">
-      <Project>{CC179C3A-F110-1C81-4789-6A3E1CBBEDBC}</Project>
-      <Name>VuforiaScripts</Name>
-    </ProjectReference>
-    <ProjectReference Include="VuforiaEditorScripts.csproj">
-      <Project>{CDE0E850-A104-61B8-8B4D-585E45985D86}</Project>
-      <Name>VuforiaEditorScripts</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\back_button.cs" />
-    <Compile Include="Assets\main_menu.cs" />
+    <Compile Include="Assets\Scripts\back_button.cs" />
+    <Compile Include="Assets\Scripts\main_menu.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Fonts\Montserrat\OFL.txt" />
+    <None Include="Assets\Fonts\Tillana\OFL.txt" />
     <None Include="Assets\StreamingAssets\Vuforia\Vowels.xml" />
     <None Include="Assets\Vuforia\Databases\Emulator\VuforiaEmulator.xml" />
     <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />

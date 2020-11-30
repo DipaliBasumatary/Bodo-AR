@@ -674,6 +674,8 @@
     <Compile Include="Packages\com.unity.collab-proxy\Editor\Collab\Views\StatusView.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Fonts\Montserrat\OFL.txt" />
+    <None Include="Assets\Fonts\Tillana\OFL.txt" />
     <None Include="Assets\StreamingAssets\Vuforia\Vowels.xml" />
     <None Include="Assets\Vuforia\Databases\Emulator\VuforiaEmulator.xml" />
     <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
