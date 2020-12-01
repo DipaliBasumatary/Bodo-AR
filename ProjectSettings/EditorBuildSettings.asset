@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/main_menu.unity
     guid: 59146f44ba84df14fbff2c628feeae2d
   - enabled: 1
+    path: Assets/Scenes/selection_menu.unity
+    guid: 4dab25fc5b896664f910756b58d2247c
+  - enabled: 1
     path: Assets/Scenes/vowels.unity
     guid: 97f0e7dbc15fb5045be0c10897911536
   m_configObjects: {}

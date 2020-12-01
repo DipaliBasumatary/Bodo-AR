@@ -14,13 +14,4 @@ public class back_button : MonoBehaviour
     {
         mySource.Play();
     }
-    public void goBack()
-    {
-        StartCoroutine(actionAfterMain());
-    }
-    IEnumerator actionAfterMain()
-    {
-        yield return new WaitForSeconds(1f);
-        SceneManager.LoadScene("main_menu");
-    }
 }

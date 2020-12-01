@@ -62,6 +62,8 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\back_button.cs" />
     <Compile Include="Assets\Scripts\main_menu.cs" />
+    <Compile Include="Assets\Scripts\SceneLoader.cs" />
+    <Compile Include="Assets\Scripts\selectionScript.cs" />
     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
     <None Include="Assets\Fonts\Montserrat\OFL.txt" />
     <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />
