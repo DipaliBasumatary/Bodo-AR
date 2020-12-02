@@ -8,12 +8,14 @@ public class main_menu : MonoBehaviour
     public float optionTime = 1f;
     public Animator secondaryMenu;
     public Animator tertiaryMenu;
+   
     GameObject Learn;
     GameObject Exit;
     GameObject Options;
     GameObject Information;
     GameObject OptionsMenu;
     GameObject InfoMenu;
+    GameObject CreditsMenu;
 
     //For Audio Initialization
     AudioSource mySource;
@@ -26,8 +28,10 @@ public class main_menu : MonoBehaviour
         Information = GameObject.Find("Info");
         OptionsMenu = GameObject.Find("Options_Menu");
         InfoMenu = GameObject.Find("Info_Menu");
+        
         OptionsMenu.SetActive(false);
         InfoMenu.SetActive(false);
+        
     }
 
     //Exit-Quit Button
@@ -70,6 +74,8 @@ public class main_menu : MonoBehaviour
         StartCoroutine(disableOptionsMenu());
     }
 
+    
+
     IEnumerator enableOptionsMenu()
     {
         yield return new WaitForSeconds(buttonAnimation);
@@ -96,6 +102,10 @@ public class main_menu : MonoBehaviour
         InfoMenu.SetActive(true);
         tertiaryMenu.SetTrigger("info");
     }
+
+    
+
+
 
 
     IEnumerator disableOptionsMenu()
