@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/hp/Documents/Unity stuff/AshaAR_v0.0.5.1.apk
+C:/Users/hp/Documents/Unity stuff/AshaAR_v0.0.6.apk
 SceneListBegin?
 Assets/Scenes/main_menu.unity
 Assets/Scenes/credits.unity
@@ -223,6 +223,7 @@ fb6a1ea36b4f6ef5948d283d93760765 UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 5b0391b7e3d9ea9db6c0a8fbd0ca23f6 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSoundfieldExtension
 5b0391b7e3d9ea9db6c0a8fbd0ca23f6 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
 dff7a11839abb9fb7222280cf3c0a95a VuforiaScripts.dll:.DefaultModelRecoEventHandler
+2b1aa00424f2899ff608c3ec081accb6 Assembly-CSharp.dll:.playOnClick
 3b760e6526e13f7504f59e210145899a Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 507174d46dacbc5fe45e28485db5dd1e Unity.Analytics.DataPrivacy.dll:UnityEngine.Analytics.DataPrivacyButton
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver

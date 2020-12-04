@@ -1015,7 +1015,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 578430133}
   m_FillRect: {fileID: 992223678}
   m_HandleRect: {fileID: 578430132}
@@ -1485,7 +1485,7 @@ RectTransform:
   m_GameObject: {fileID: 578430131}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children: []
   m_Father: {fileID: 51934363}
   m_RootOrder: 0
@@ -2212,7 +2212,8 @@ AudioSource:
   m_GameObject: {fileID: 857634361}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: df10950f399be8c40ac7ae2e5d2ae3aa,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 1dec0ba2ed2563744bfb212a1d26ae33, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -2681,7 +2682,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00000095367, y: -552.1478}
+  m_AnchoredPosition: {x: -0.00000095367, y: -552.15}
   m_SizeDelta: {x: 1024.0002, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1065931144

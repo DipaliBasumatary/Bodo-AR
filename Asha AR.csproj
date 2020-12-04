@@ -639,6 +639,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\playOnClick.cs" />
     <Compile Include="Assets\Scripts\back_button.cs" />
     <Compile Include="Assets\Scripts\credits.cs" />
     <Compile Include="Assets\Scripts\main_menu.cs" />
