@@ -243,3 +243,4 @@ C:\Users\hp\Documents\Unity stuff\Asha AR\obj\Debug\VuforiaScripts.csproj.CoreCo
 C:\Users\hp\Documents\Unity stuff\Asha AR\obj\Debug\VuforiaScripts.csproj.CopyComplete
 C:\Users\hp\Documents\Unity stuff\Asha AR\obj\Debug\VuforiaScripts.dll
 C:\Users\hp\Documents\Unity stuff\Asha AR\obj\Debug\VuforiaScripts.pdb
+C:\Users\hp\Documents\Unity stuff\Asha AR\Temp\bin\Debug\UnityEditor.Android.Extensions.dll

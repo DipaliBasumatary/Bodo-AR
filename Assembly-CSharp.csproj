@@ -60,6 +60,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\playOnClick.cs" />
     <Compile Include="Assets\Scripts\back_button.cs" />
     <Compile Include="Assets\Scripts\credits.cs" />
     <Compile Include="Assets\Scripts\main_menu.cs" />
@@ -74,6 +75,7 @@
     <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
     <None Include="Assets\Vuforia\Shaders\OutlineOpaque.shader" />
     <None Include="Assets\Vuforia\Shaders\VuforiaVB_YUV420P_YUVYV12.cginc" />
+    <None Include="Assets\StreamingAssets\Vuforia\Vowels.xml" />
     <None Include="Assets\Vuforia\Shaders\VuforiaVideoBackground.cginc" />
     <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
     <None Include="Assets\Vuforia\Databases\Emulator\VuforiaEmulator.xml" />
@@ -81,7 +83,6 @@
     <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
     <None Include="Assets\Vuforia\Shaders\DepthContour.shader" />
     <None Include="Assets\Vuforia\Shaders\VuforiaVB_RGB.cginc" />
-    <None Include="Assets\StreamingAssets\Vuforia\Vowels.xml" />
     <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
     <Reference Include="UnityEngine.Purchasing">
       <HintPath>C:/Users/hp/Documents/Unity stuff/Asha AR/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>

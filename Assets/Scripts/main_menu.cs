@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class main_menu : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class main_menu : MonoBehaviour
     public float optionTime = 1f;
     public Animator secondaryMenu;
     public Animator tertiaryMenu;
+    public AudioMixer audioMixer;
    
     GameObject Learn;
     GameObject Exit;
@@ -51,6 +53,11 @@ public class main_menu : MonoBehaviour
     public void playClick()
     {
         mySource.Play();
+    }
+
+    public void setVolume(float volume)
+    {
+        audioMixer.SetFloat("volume", volume);
     }
 
     public void option()
