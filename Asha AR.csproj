@@ -639,16 +639,19 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\playOnClick.cs" />
     <Compile Include="Assets\Scripts\back_button.cs" />
     <Compile Include="Assets\Scripts\credits.cs" />
     <Compile Include="Assets\Scripts\main_menu.cs" />
+    <Compile Include="Assets\Scripts\playOnClick.cs" />
     <Compile Include="Assets\Scripts\SceneLoader.cs" />
     <Compile Include="Assets\Scripts\selectionScript.cs" />
+    <Compile Include="Assets\Scripts\vowelManager.cs" />
+    <Compile Include="Assets\Scripts\vowelsQuestions.cs" />
+    <Compile Include="Assets\Scripts\vowelsQuizManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Fonts\Montserrat\OFL.txt" />
-    <None Include="Assets\Fonts\Tillana\OFL.txt" />
+    <None Include="Assets\Fonts\Poppins\OFL.txt" />
     <None Include="Assets\StreamingAssets\Vuforia\Vowels.xml" />
     <None Include="Assets\Vuforia\Databases\Emulator\VuforiaEmulator.xml" />
     <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />

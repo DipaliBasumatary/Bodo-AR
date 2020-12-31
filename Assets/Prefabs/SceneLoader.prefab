@@ -45,8 +45,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transition: {fileID: 0}
-  transitionTime: 1
-  buttonAnimation: 1
+  SelectionBackButton: {fileID: 0}
+  transitionTime: 0.3
+  buttonAnimation: 0.15
+  creditsScrollTime: 20
 --- !u!1 &2237165516163162523
 GameObject:
   m_ObjectHideFlags: 0

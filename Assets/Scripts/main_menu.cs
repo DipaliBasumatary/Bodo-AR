@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.UI;
 
 public class main_menu : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class main_menu : MonoBehaviour
     public Animator secondaryMenu;
     public Animator tertiaryMenu;
     public AudioMixer audioMixer;
+    public Slider volumeSlider;
    
     GameObject Learn;
     GameObject Exit;
@@ -23,6 +25,8 @@ public class main_menu : MonoBehaviour
     AudioSource mySource;
     void Start()
     {
+        float tmp = PlayerPrefs.GetFloat("volume", 0);
+        volumeSlider.value = tmp;
         mySource = GetComponent<AudioSource>();
         Learn = GameObject.Find("Learn");
         Exit = GameObject.Find("Exit");
@@ -58,6 +62,7 @@ public class main_menu : MonoBehaviour
     public void setVolume(float volume)
     {
         audioMixer.SetFloat("volume", volume);
+        PlayerPrefs.SetFloat("volume", volume);
     }
 
     public void option()
@@ -81,6 +86,16 @@ public class main_menu : MonoBehaviour
         StartCoroutine(disableOptionsMenu());
     }
 
+    public void optionsAR()
+    {
+        StartCoroutine(openARTarget());
+    }
+
+    IEnumerator openARTarget()
+    {
+        yield return new WaitForSeconds(buttonAnimation);
+        Application.OpenURL("https://drive.google.com/folderview?id=1CWNEUT1OY87u-kjnjsdJ_NnxwbaSQK0G");
+    }
     
 
     IEnumerator enableOptionsMenu()

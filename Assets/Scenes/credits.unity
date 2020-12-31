@@ -188,7 +188,10 @@ MonoBehaviour:
     Guide
 
 
-    Special Thanks'
+    Special Thanks
+
+
+    Sound Designer'
 --- !u!222 &147951766
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -733,8 +736,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14.475, y: -902.35}
-  m_SizeDelta: {x: 742.1492, y: 514.36816}
+  m_AnchoredPosition: {x: 14.475, y: -998.4}
+  m_SizeDelta: {x: 742.1492, y: 503.03375}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &445028364
 MonoBehaviour:
@@ -767,7 +770,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Pre-commercial Software Release
+  m_Text: 'Icons are licensed under CC-BY licence and provided by flaticon
+
+
+    Pre-commercial Software Release
 
 
     The Application uses Development License of Vuforia SDK and is meant for use for
@@ -818,8 +824,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 201.73, y: -451.38}
-  m_SizeDelta: {x: 324.00262, y: 387.57776}
+  m_AnchoredPosition: {x: 201.73, y: -502.22}
+  m_SizeDelta: {x: 324.00262, y: 489.25287}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &516244362
 MonoBehaviour:
@@ -852,7 +858,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Moon\nGrapes\nIgloo\nEagle\r\nCamel\r\nElephant\r\nRat\r\nRice\n\nWool\n\n"
+  m_Text: "Moon\nGrapes\nIgloo\nEagle\r\nCamel\r\nElephant\r\nRat\r\nRice\nBlack Bear\nBamboo\n\nWool\n\n"
 --- !u!222 &516244363
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1088,7 +1094,10 @@ MonoBehaviour:
     Dr. Ranjan Maity
 
 
-    Dipali Basumatary'
+    Dipali Basumatary
+
+
+    Bijit Das'
 --- !u!222 &1206060339
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1304,8 +1313,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -194.6, y: -451.4}
-  m_SizeDelta: {x: 323.99744, y: 387.5359}
+  m_AnchoredPosition: {x: -194.6, y: -502.24}
+  m_SizeDelta: {x: 323.99744, y: 489.21216}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1965828321
 MonoBehaviour:
@@ -1339,6 +1348,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'Poly by Google
+
+
 
 
 
