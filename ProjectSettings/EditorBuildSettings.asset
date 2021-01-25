@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/vowel_quiz.unity
     guid: 59652720110f1364cb92cc8060bd6ee5
+  - enabled: 1
+    path: Assets/Scenes/numbers_1.unity
+    guid: cbadd656ef0c8d641a38051a846059fb
+  - enabled: 1
+    path: Assets/Scenes/numbers_1_quiz.unity
+    guid: 188ae008606172d4fb9419370ab0f494
   m_configObjects: {}

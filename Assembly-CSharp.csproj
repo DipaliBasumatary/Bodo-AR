@@ -63,6 +63,7 @@
     <Compile Include="Assets\Scripts\back_button.cs" />
     <Compile Include="Assets\Scripts\credits.cs" />
     <Compile Include="Assets\Scripts\main_menu.cs" />
+    <Compile Include="Assets\Scripts\numbersManager.cs" />
     <Compile Include="Assets\Scripts\playOnClick.cs" />
     <Compile Include="Assets\Scripts\SceneLoader.cs" />
     <Compile Include="Assets\Scripts\selectionScript.cs" />

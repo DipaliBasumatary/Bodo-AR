@@ -26,13 +26,25 @@ public class SceneLoader : MonoBehaviour
     public void startVowels()
     {
         StartCoroutine(vowelsScene());
-        Debug.Log("Loaded Vowels Menu!");
+        Debug.Log("Loaded Vowels Scene!");
+    }
+
+    public void startNumbers()
+    {
+        StartCoroutine(numbersScene());
+        Debug.Log("Loaded Numbers Scene!");
     }
 
     public void startVowelsQuiz()
     {
         StartCoroutine(vowelsQuizScene());
-        Debug.Log("Loaded Vowels Quize Scene!");
+        Debug.Log("Loaded Vowels Quiz Scene!");
+    }
+
+    public void startNumbersQuiz()
+    {
+        StartCoroutine(numbersQuizScene());
+        Debug.Log("Loaded Numbers Quiz Scene!");
     }
 
     public void backAR()
@@ -86,12 +98,28 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene("vowels");
     }
 
+    IEnumerator numbersScene()
+    {
+        yield return new WaitForSeconds(buttonAnimation);
+        transition.SetTrigger("Start");
+        yield return new WaitForSeconds(transitionTime);
+        SceneManager.LoadScene("numbers_1");
+    }
+
     IEnumerator vowelsQuizScene()
     {
         yield return new WaitForSeconds(buttonAnimation);
         transition.SetTrigger("Start");
         yield return new WaitForSeconds(transitionTime);
         SceneManager.LoadScene("vowel_Quiz");
+    }
+
+    IEnumerator numbersQuizScene()
+    {
+        yield return new WaitForSeconds(buttonAnimation);
+        transition.SetTrigger("Start");
+        yield return new WaitForSeconds(transitionTime);
+        SceneManager.LoadScene("numbers_1_quiz");
     }
 
     IEnumerator creditsMenu()
